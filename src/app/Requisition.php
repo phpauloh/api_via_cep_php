@@ -15,8 +15,13 @@ class Requisition{
         if(strlen($cep) != 8){
             echo "Erro! CEP Inválido!";
             die();
-        }else{            
-            $this->url = "https://viacep.com.br/ws/$cep/json/";            
+        }else{
+            if(is_numeric($cep)){
+                $this->url = "https://viacep.com.br/ws/$cep/json/";
+            }else{
+                echo "Valores Inválidos para CEP"; 
+                die();
+            }                        
         }        
     }
 

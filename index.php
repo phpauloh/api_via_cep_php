@@ -28,11 +28,11 @@
 </head>
 <body>
    <div class="container">
-    <div class="row">
+    <!--<div class="row">
         <div class="col-md-12 div-top">
             <h1>CONSUMINDO WEB SERVICE API - VIA CEP</h1>
         </div>
-    </div>
+    </div>-->
             
     <form method="POST" action="<?php echo $PHP_SELF; ?>">
         <div class="row">
