@@ -1,0 +1,9 @@
+{
+    "name": "paulo/via-cep",
+    "autoload": {
+        "psr-4": {
+            "Paulo\\ViaCep\\": "src/"
+        }
+    },
+    "require": {}
+}

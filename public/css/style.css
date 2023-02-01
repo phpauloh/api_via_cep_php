@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+    padding: 0;
+    background-color: rgb(243, 243, 243);
+    font-weight: 600;
+    box-sizing: border-box;    
+}
+
+body{
+    background-color: rgb(243, 243, 243);    
+}
+
+.container{      
+    margin: 0 auto;
+    text-align: center;    
+}
+
+.div-top{
+    margin-top: 3%;
+    margin-bottom: 2%;
+}
+
+.btn-cep{
+    margin-top: 3%;
+}
+
+.row-divisor{
+    margin-top: 1%;
+    margin-bottom: 2%;
+}
+
+input[type="text"] {
+    border: 1px solid #000;
+}
+
+input[type="text"]:focus {
+    border: 2px solid rgb(7, 128, 33);
+    box-shadow: none;
+}
+
+.row-form-inputs{
+    margin-top: 2%;
+}
